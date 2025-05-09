@@ -382,6 +382,7 @@ void gfx_ctx_wl_destroy_resources_common(gfx_ctx_wayland_data_t *wl)
    wl->seat                      = NULL;
    wl->relative_pointer_manager  = NULL;
    wl->pointer_constraints       = NULL;
+   wl->presentation              = NULL;
    wl->content_type              = NULL;
    wl->content_type_manager      = NULL;
    wl->cursor_shape_manager      = NULL;
